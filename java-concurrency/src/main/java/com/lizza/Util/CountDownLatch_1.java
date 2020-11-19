@@ -3,11 +3,11 @@ package com.lizza.Util;
 import java.util.concurrent.CountDownLatch;
 
 /**
- * CountDownLatch: 闭锁
+ * CountDownLatchDemo: 闭锁
  * 1. 问题描述
  *      多个线程同时执行任务, 主线程必须等待所有线程执行完毕后再结束
  * 2. 解决方案
- *      CountDownLatch
+ *      CountDownLatchDemo
  * 3. 实现原理
  *      1. CountDownLatch主要有两个方法, 当一个或多个线程调用await方法时, 这些线程会阻塞
  *      2. 其它线程调用countDown方法会将计数器减1(调用countDown方法的线程不会阻塞)
