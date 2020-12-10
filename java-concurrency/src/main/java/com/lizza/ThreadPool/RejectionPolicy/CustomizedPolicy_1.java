@@ -3,9 +3,7 @@ package com.lizza.ThreadPool.RejectionPolicy;
 import java.util.concurrent.*;
 
 /**
- * @Desc:
- * @author: lizza1643@gmail.com
- * @date: 2019-10-10
+ * 自定义拒绝策略
  */
 public class CustomizedPolicy_1 {
 

@@ -6,9 +6,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @Desc:
- * @author: lizza1643@gmail.com
- * @date: 2019-09-25
+ *
  */
 
 public class Base_1 {
