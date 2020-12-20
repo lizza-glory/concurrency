@@ -8,18 +8,18 @@ import java.util.concurrent.ArrayBlockingQueue;
  * @date 2019年5月29日
  * @version v1.0
  */
-public class ProducterConsumer {
+public class ProducerConsumer {
 
 	public static void main(String[] args) {
 		ArrayBlockingQueue<Object> abq = new ArrayBlockingQueue<>(10);
-		new Productor(abq).start();
+		new Producer(abq).start();
 		new Consumer(abq).start();
 	}
 }
 
-class Productor extends Thread {
+class Producer extends Thread {
 	ArrayBlockingQueue<Object> abq;
-	public Productor(ArrayBlockingQueue<Object> abq) {
+	public Producer(ArrayBlockingQueue<Object> abq) {
 		this.abq = abq;
 	}
 	@Override
