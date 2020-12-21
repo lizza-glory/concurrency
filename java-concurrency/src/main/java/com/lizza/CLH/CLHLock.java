@@ -3,9 +3,7 @@ package com.lizza.CLH;
 import java.util.concurrent.atomic.AtomicReferenceFieldUpdater;
 
 /**
- * @author lt
- * @date 2019年5月24日
- * @version v1.0
+ * CLH 队列
  */
 public class CLHLock {
 
